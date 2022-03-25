@@ -1,0 +1,11 @@
+<suite name="DMSEPIQ Test Suite">
+
+ 
+<test name="DepartmentTestname">
+
+	<classes>
+		<class name="DMSData.Testcases.DepartmentDataTest">
+		</class>
+</classes>
+</test>
+</suite>
