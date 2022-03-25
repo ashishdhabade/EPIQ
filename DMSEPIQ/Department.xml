@@ -1,0 +1,30 @@
+<suite name="Department Suite">
+
+<test name="LoginTest">
+<parameter name="cpl" value="cpl02"></parameter>
+<parameter name="userid" value="ashish1"></parameter>
+<parameter name="password" value="pass2"></parameter>
+	<classes>
+		<class name="DMS.testcases.LoginTest">
+		</class>
+</classes>
+</test>
+
+
+<test name="DepartmentTest">
+
+<parameter name="dname" value="rd23 name"></parameter>
+<parameter name="dcode" value="rd23"></parameter>
+<parameter name="desc" value="rd23 desc"></parameter>
+<parameter name="domaintype" value="Site"></parameter>
+<parameter name="esign" value="pass2"></parameter>
+
+
+	<classes>
+		<class name="DMS.testcases.DepartmentTest">
+		</class>
+		
+		
+</classes>
+</test>
+</suite>

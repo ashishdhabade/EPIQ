@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Department Suite]">
+  <parameter name="password" value="pass2"/>
+  <parameter name="domaintype" value="Site"/>
+  <parameter name="esign" value="pass2"/>
+  <parameter name="dname" value="rd23 name"/>
+  <parameter name="userid" value="ashish1"/>
+  <parameter name="cpl" value="cpl02"/>
+  <parameter name="dcode" value="rd23"/>
+  <parameter name="desc" value="rd23 desc"/>
+  <test name="DepartmentTest(failed)">
+    <parameter name="domaintype" value="Site"/>
+    <parameter name="esign" value="pass2"/>
+    <parameter name="dname" value="rd23 name"/>
+    <parameter name="dcode" value="rd23"/>
+    <parameter name="desc" value="rd23 desc"/>
+    <classes>
+      <class name="DMS.testcases.DepartmentTest">
+        <methods>
+          <include name="Dept" invocation-numbers="0"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- DMS.testcases.DepartmentTest -->
+    </classes>
+  </test> <!-- DepartmentTest(failed) -->
+</suite> <!-- Failed suite [Department Suite] -->

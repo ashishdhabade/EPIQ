@@ -1,0 +1,55 @@
+  
+<suite name="DMS Test Suite">
+
+ 
+<test name="LoginTest">
+<parameter name="cpl" value="cpl02"></parameter>
+<parameter name="userid" value="ashish1"></parameter>
+<parameter name="password" value="pass2"></parameter>
+	<classes>
+		<class name="DMS.testcases.LoginTest">
+		</class>
+</classes>
+</test>
+</suite>
+
+<!--
+<test name="DepartmentTest">
+
+<parameter name="dname" value="rd95 name"></parameter>
+<parameter name="dcode" value="rd95"></parameter>
+<parameter name="desc" value="rd95 desc"></parameter>
+<parameter name="domaintype" value="Site"></parameter>
+<parameter name="esign" value="pass2"></parameter>
+
+
+	<classes>
+		<class name="DMS.testcases.DepartmentTest">
+		</class>
+		
+		
+</classes>
+</test>
+
+
+
+<test name="DocumentRepositoryTest">
+
+<parameter name="drid"        value="dr89"></parameter>
+<parameter name="title"       value="dr89 title"></parameter>
+<parameter name="find"        value="rd1"></parameter>
+<parameter name="sections"    value="2"></parameter>
+<parameter name="stitle1" 	  value="sop title"></parameter>
+<parameter name="sid1"        value="sop"></parameter>
+<parameter name="stitle2"     value="annexe title"></parameter>
+<parameter name="sid2"        value="annexe"></parameter>
+
+
+<classes>
+		<class name="DMS.testcases.DocumentRepositoryTest">
+		</class>	
+</classes>
+</test>
+
+</suite>
+-->

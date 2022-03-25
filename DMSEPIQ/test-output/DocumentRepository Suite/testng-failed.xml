@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DocumentRepository Suite]">
+  <parameter name="stitle1" value="sop title"/>
+  <parameter name="stitle2" value="annexe title"/>
+  <parameter name="sid2" value="annexe"/>
+  <parameter name="password" value="pass2"/>
+  <parameter name="drid" value="dr23"/>
+  <parameter name="find" value="rd1"/>
+  <parameter name="sid1" value="sop"/>
+  <parameter name="title" value="dr23 title"/>
+  <parameter name="userid" value="ashish1"/>
+  <parameter name="cpl" value="cpl02"/>
+  <parameter name="sections" value="2"/>
+  <test name="DocumentRepositoryTest(failed)">
+    <parameter name="stitle1" value="sop title"/>
+    <parameter name="stitle2" value="annexe title"/>
+    <parameter name="sid2" value="annexe"/>
+    <parameter name="drid" value="dr23"/>
+    <parameter name="find" value="rd1"/>
+    <parameter name="sid1" value="sop"/>
+    <parameter name="title" value="dr23 title"/>
+    <parameter name="sections" value="2"/>
+    <classes>
+      <class name="DMS.testcases.DocumentRepositoryTest">
+        <methods>
+          <include name="DocRepo" invocation-numbers="0"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- DMS.testcases.DocumentRepositoryTest -->
+    </classes>
+  </test> <!-- DocumentRepositoryTest(failed) -->
+</suite> <!-- Failed suite [DocumentRepository Suite] -->

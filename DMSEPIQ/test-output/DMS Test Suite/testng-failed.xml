@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DMS Test Suite]">
+  <parameter name="drid" value="dr89"/>
+  <parameter name="esign" value="pass2"/>
+  <parameter name="title" value="dr89 title"/>
+  <parameter name="userid" value="ashish1"/>
+  <parameter name="sections" value="2"/>
+  <parameter name="stitle1" value="sop title"/>
+  <parameter name="stitle2" value="annexe title"/>
+  <parameter name="sid2" value="annexe"/>
+  <parameter name="password" value="pass2"/>
+  <parameter name="domaintype" value="Site"/>
+  <parameter name="find" value="rd1"/>
+  <parameter name="sid1" value="sop"/>
+  <parameter name="dname" value="rd95 name"/>
+  <parameter name="cpl" value="cpl02"/>
+  <parameter name="dcode" value="rd95"/>
+  <parameter name="desc" value="rd95 desc"/>
+  <test name="DepartmentTest(failed)">
+    <parameter name="domaintype" value="Site"/>
+    <parameter name="esign" value="pass2"/>
+    <parameter name="dname" value="rd95 name"/>
+    <parameter name="dcode" value="rd95"/>
+    <parameter name="desc" value="rd95 desc"/>
+    <classes>
+      <class name="DMS.testcases.DocumentRepositoryTest">
+        <methods>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- DMS.testcases.DocumentRepositoryTest -->
+      <class name="DMS.testcases.DepartmentTest">
+        <methods>
+          <include name="Dept" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- DMS.testcases.DepartmentTest -->
+    </classes>
+  </test> <!-- DepartmentTest(failed) -->
+  <test name="DocumentRepositoryTest(failed)">
+    <parameter name="stitle1" value="sop title"/>
+    <parameter name="stitle2" value="annexe title"/>
+    <parameter name="sid2" value="annexe"/>
+    <parameter name="drid" value="dr89"/>
+    <parameter name="find" value="rd1"/>
+    <parameter name="sid1" value="sop"/>
+    <parameter name="title" value="dr89 title"/>
+    <parameter name="sections" value="2"/>
+    <classes>
+      <class name="DMS.testcases.DocumentRepositoryTest">
+        <methods>
+          <include name="DocRepo" invocation-numbers="0"/>
+          <include name="launchApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- DMS.testcases.DocumentRepositoryTest -->
+    </classes>
+  </test> <!-- DocumentRepositoryTest(failed) -->
+</suite> <!-- Failed suite [DMS Test Suite] -->

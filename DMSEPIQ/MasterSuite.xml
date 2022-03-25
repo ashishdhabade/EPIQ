@@ -1,0 +1,16 @@
+  
+<suite name="DMS Master Suite">
+<suite-files>
+
+<suite-file path="./DocumentRepository.xml"></suite-file>
+<suite-file path="./Department.xml"></suite-file>
+
+
+</suite-files>
+ 
+
+</suite>
+
+
+
+
